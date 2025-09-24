@@ -15,6 +15,7 @@ public class QuestionController {
     @Autowired
     QuestionService questionService;
     @GetMapping("allQuestions")
+    //hdhfd
     public List<Question> getAllQuestions(){
 
         return  questionService.getAllQuestions();

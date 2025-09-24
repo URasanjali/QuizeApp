@@ -15,6 +15,10 @@ public class Question {
     @JsonProperty("questionTitle")
     private String questionTitle;
 
+    @Column(name = "category")
+    @JsonProperty("category")
+    private String category;
+
     @Column(name = "option1")
     @JsonProperty("option1")
     private String option1;
